@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.drishti.dacx.nodeflow.model="http://www.drishtisoft.com/dacx/nodeflow/nodeModel.ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmi:id="_tOwEkB2AEe6hffep9W0FvA" type="NodeModel" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_sfuE8B7sEe6IF5fXZRMkdg" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_sfuE8x7sEe6IF5fXZRMkdg" type="4002"/>
+    <children xmi:type="notation:Node" xmi:id="_sfuE9B7sEe6IF5fXZRMkdg" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_sfuE9R7sEe6IF5fXZRMkdg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_sfuE9h7sEe6IF5fXZRMkdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_sfuE9x7sEe6IF5fXZRMkdg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_sfuE-B7sEe6IF5fXZRMkdg" type="5002">
+      <children xmi:type="notation:Node" xmi:id="_sfxISh7sEe6IF5fXZRMkdg" type="2002">
+        <children xmi:type="notation:Node" xmi:id="_sfxITR7sEe6IF5fXZRMkdg" type="4001"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_sfxISx7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+        <element xmi:type="com.drishti.dacx.nodeflow.model:NodeEvent" href="Guardian_Post_Processing.nodeflow#//@nodes.0/@events.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfxITB7sEe6IF5fXZRMkdg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_sfxITh7sEe6IF5fXZRMkdg" type="2002">
+        <children xmi:type="notation:Node" xmi:id="_sfxIUR7sEe6IF5fXZRMkdg" type="4001"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_sfxITx7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+        <element xmi:type="com.drishti.dacx.nodeflow.model:NodeEvent" href="Guardian_Post_Processing.nodeflow#//@nodes.0/@events.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfxIUB7sEe6IF5fXZRMkdg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_sfxIUh7sEe6IF5fXZRMkdg" type="2002">
+        <children xmi:type="notation:Node" xmi:id="_sfxIVR7sEe6IF5fXZRMkdg" type="4001"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_sfxIUx7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+        <element xmi:type="com.drishti.dacx.nodeflow.model:NodeEvent" href="Guardian_Post_Processing.nodeflow#//@nodes.0/@events.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfxIVB7sEe6IF5fXZRMkdg"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_sfuE-R7sEe6IF5fXZRMkdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_sfuE-h7sEe6IF5fXZRMkdg"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfuE8R7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Node" href="Guardian_Post_Processing.nodeflow#Start_Script"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfuE8h7sEe6IF5fXZRMkdg" x="24" y="216"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfuE-x7sEe6IF5fXZRMkdg" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_sfuE_h7sEe6IF5fXZRMkdg" type="4002"/>
+    <children xmi:type="notation:Node" xmi:id="_sfuE_x7sEe6IF5fXZRMkdg" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_sfuFAB7sEe6IF5fXZRMkdg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_sfuFAR7sEe6IF5fXZRMkdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_sfuFAh7sEe6IF5fXZRMkdg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_sfuFAx7sEe6IF5fXZRMkdg" type="5002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_sfuFBB7sEe6IF5fXZRMkdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_sfuFBR7sEe6IF5fXZRMkdg"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfuE_B7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Node" href="Guardian_Post_Processing.nodeflow#Stop_Success"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfuE_R7sEe6IF5fXZRMkdg" x="504" y="576" width="193"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfuFBh7sEe6IF5fXZRMkdg" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_sfuFCR7sEe6IF5fXZRMkdg" type="4002"/>
+    <children xmi:type="notation:Node" xmi:id="_sfuFCh7sEe6IF5fXZRMkdg" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_sfuFCx7sEe6IF5fXZRMkdg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_sfuFDB7sEe6IF5fXZRMkdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_sfuFDR7sEe6IF5fXZRMkdg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_sfuFDh7sEe6IF5fXZRMkdg" type="5002">
+      <children xmi:type="notation:Node" xmi:id="_sfxIbB7sEe6IF5fXZRMkdg" type="2002">
+        <children xmi:type="notation:Node" xmi:id="_sfxIbx7sEe6IF5fXZRMkdg" type="4001"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_sfxIbR7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+        <element xmi:type="com.drishti.dacx.nodeflow.model:NodeEvent" href="Guardian_Post_Processing.nodeflow#//@nodes.2/@events.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfxIbh7sEe6IF5fXZRMkdg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_sfxIcB7sEe6IF5fXZRMkdg" type="2002">
+        <children xmi:type="notation:Node" xmi:id="_sfxIcx7sEe6IF5fXZRMkdg" type="4001"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_sfxIcR7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+        <element xmi:type="com.drishti.dacx.nodeflow.model:NodeEvent" href="Guardian_Post_Processing.nodeflow#//@nodes.2/@events.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfxIch7sEe6IF5fXZRMkdg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_sfxIdB7sEe6IF5fXZRMkdg" type="2002">
+        <children xmi:type="notation:Node" xmi:id="_sfxIdx7sEe6IF5fXZRMkdg" type="4001"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_sfxIdR7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+        <element xmi:type="com.drishti.dacx.nodeflow.model:NodeEvent" href="Guardian_Post_Processing.nodeflow#//@nodes.2/@events.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfxIdh7sEe6IF5fXZRMkdg"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_sfuFDx7sEe6IF5fXZRMkdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_sfuFEB7sEe6IF5fXZRMkdg"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfuFBx7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Node" href="Guardian_Post_Processing.nodeflow#Pre_Banku_Script"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfuFCB7sEe6IF5fXZRMkdg" x="312" y="216"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfuFER7sEe6IF5fXZRMkdg" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_sfuFFB7sEe6IF5fXZRMkdg" type="4002"/>
+    <children xmi:type="notation:Node" xmi:id="_sfuFFR7sEe6IF5fXZRMkdg" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_sfuFFh7sEe6IF5fXZRMkdg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_sfuFFx7sEe6IF5fXZRMkdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_sfuFGB7sEe6IF5fXZRMkdg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_sfuFGR7sEe6IF5fXZRMkdg" type="5002">
+      <children xmi:type="notation:Node" xmi:id="_sfxIkB7sEe6IF5fXZRMkdg" type="2002">
+        <children xmi:type="notation:Node" xmi:id="_sfxIkx7sEe6IF5fXZRMkdg" type="4001"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_sfxIkR7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+        <element xmi:type="com.drishti.dacx.nodeflow.model:NodeEvent" href="Guardian_Post_Processing.nodeflow#//@nodes.3/@events.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfxIkh7sEe6IF5fXZRMkdg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_sfxIlB7sEe6IF5fXZRMkdg" type="2002">
+        <children xmi:type="notation:Node" xmi:id="_sfxIlx7sEe6IF5fXZRMkdg" type="4001"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_sfxIlR7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+        <element xmi:type="com.drishti.dacx.nodeflow.model:NodeEvent" href="Guardian_Post_Processing.nodeflow#//@nodes.3/@events.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfxIlh7sEe6IF5fXZRMkdg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_sfxImB7sEe6IF5fXZRMkdg" type="2002">
+        <children xmi:type="notation:Node" xmi:id="_sfxImx7sEe6IF5fXZRMkdg" type="4001"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_sfxImR7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+        <element xmi:type="com.drishti.dacx.nodeflow.model:NodeEvent" href="Guardian_Post_Processing.nodeflow#//@nodes.3/@events.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfxImh7sEe6IF5fXZRMkdg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_sfxInB7sEe6IF5fXZRMkdg" type="2002">
+        <children xmi:type="notation:Node" xmi:id="_sfxInx7sEe6IF5fXZRMkdg" type="4001"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_sfxInR7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+        <element xmi:type="com.drishti.dacx.nodeflow.model:NodeEvent" href="Guardian_Post_Processing.nodeflow#//@nodes.3/@events.3"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfxInh7sEe6IF5fXZRMkdg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_sfxIoB7sEe6IF5fXZRMkdg" type="2002">
+        <children xmi:type="notation:Node" xmi:id="_sfxIox7sEe6IF5fXZRMkdg" type="4001"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_sfxIoR7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+        <element xmi:type="com.drishti.dacx.nodeflow.model:NodeEvent" href="Guardian_Post_Processing.nodeflow#//@nodes.3/@events.4"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfxIoh7sEe6IF5fXZRMkdg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_sfxIpB7sEe6IF5fXZRMkdg" type="2002">
+        <children xmi:type="notation:Node" xmi:id="_sfxIpx7sEe6IF5fXZRMkdg" type="4001"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_sfxIpR7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+        <element xmi:type="com.drishti.dacx.nodeflow.model:NodeEvent" href="Guardian_Post_Processing.nodeflow#//@nodes.3/@events.5"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfxIph7sEe6IF5fXZRMkdg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_sfxIqB7sEe6IF5fXZRMkdg" type="2002">
+        <children xmi:type="notation:Node" xmi:id="_sfxIqx7sEe6IF5fXZRMkdg" type="4001"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_sfxIqR7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+        <element xmi:type="com.drishti.dacx.nodeflow.model:NodeEvent" href="Guardian_Post_Processing.nodeflow#//@nodes.3/@events.6"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfxIqh7sEe6IF5fXZRMkdg"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_sfuFGh7sEe6IF5fXZRMkdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_sfuFGx7sEe6IF5fXZRMkdg"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfuFEh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Node" href="Guardian_Post_Processing.nodeflow#Flurry_Ticket_Update_shre"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfuFEx7sEe6IF5fXZRMkdg" x="540" y="144" height="337"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfuFHB7sEe6IF5fXZRMkdg" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_sfuFHx7sEe6IF5fXZRMkdg" type="4002"/>
+    <children xmi:type="notation:Node" xmi:id="_sfuFIB7sEe6IF5fXZRMkdg" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_sfuFIR7sEe6IF5fXZRMkdg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_sfuFIh7sEe6IF5fXZRMkdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_sfuFIx7sEe6IF5fXZRMkdg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_sfuFJB7sEe6IF5fXZRMkdg" type="5002">
+      <children xmi:type="notation:Node" xmi:id="_sfxIth7sEe6IF5fXZRMkdg" type="2002">
+        <children xmi:type="notation:Node" xmi:id="_sfxIuR7sEe6IF5fXZRMkdg" type="4001"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_sfxItx7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+        <element xmi:type="com.drishti.dacx.nodeflow.model:NodeEvent" href="Guardian_Post_Processing.nodeflow#//@nodes.4/@events.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfxIuB7sEe6IF5fXZRMkdg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_sfxIuh7sEe6IF5fXZRMkdg" type="2002">
+        <children xmi:type="notation:Node" xmi:id="_sfxIvR7sEe6IF5fXZRMkdg" type="4001"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_sfxIux7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+        <element xmi:type="com.drishti.dacx.nodeflow.model:NodeEvent" href="Guardian_Post_Processing.nodeflow#//@nodes.4/@events.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfxIvB7sEe6IF5fXZRMkdg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_sfxIvh7sEe6IF5fXZRMkdg" type="2002">
+        <children xmi:type="notation:Node" xmi:id="_sfxIwR7sEe6IF5fXZRMkdg" type="4001"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_sfxIvx7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+        <element xmi:type="com.drishti.dacx.nodeflow.model:NodeEvent" href="Guardian_Post_Processing.nodeflow#//@nodes.4/@events.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfxIwB7sEe6IF5fXZRMkdg"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_sfuFJR7sEe6IF5fXZRMkdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_sfuFJh7sEe6IF5fXZRMkdg"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfuFHR7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Node" href="Guardian_Post_Processing.nodeflow#Banku_API_Result_SOS"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfuFHh7sEe6IF5fXZRMkdg" x="744" y="228"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfusAB7sEe6IF5fXZRMkdg" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_sfusAx7sEe6IF5fXZRMkdg" type="4002"/>
+    <children xmi:type="notation:Node" xmi:id="_sfusBB7sEe6IF5fXZRMkdg" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_sfusBR7sEe6IF5fXZRMkdg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_sfusBh7sEe6IF5fXZRMkdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_sfusBx7sEe6IF5fXZRMkdg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_sfusCB7sEe6IF5fXZRMkdg" type="5002">
+      <children xmi:type="notation:Node" xmi:id="_sfxIyh7sEe6IF5fXZRMkdg" type="2002">
+        <children xmi:type="notation:Node" xmi:id="_sfxIzR7sEe6IF5fXZRMkdg" type="4001"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_sfxIyx7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+        <element xmi:type="com.drishti.dacx.nodeflow.model:NodeEvent" href="Guardian_Post_Processing.nodeflow#//@nodes.5/@events.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfxIzB7sEe6IF5fXZRMkdg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_sfxIzh7sEe6IF5fXZRMkdg" type="2002">
+        <children xmi:type="notation:Node" xmi:id="_sfxI0R7sEe6IF5fXZRMkdg" type="4001"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_sfxIzx7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+        <element xmi:type="com.drishti.dacx.nodeflow.model:NodeEvent" href="Guardian_Post_Processing.nodeflow#//@nodes.5/@events.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfxI0B7sEe6IF5fXZRMkdg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_sfxI0h7sEe6IF5fXZRMkdg" type="2002">
+        <children xmi:type="notation:Node" xmi:id="_sfxI1R7sEe6IF5fXZRMkdg" type="4001"/>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_sfxI0x7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+        <element xmi:type="com.drishti.dacx.nodeflow.model:NodeEvent" href="Guardian_Post_Processing.nodeflow#//@nodes.5/@events.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfxI1B7sEe6IF5fXZRMkdg"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_sfusCR7sEe6IF5fXZRMkdg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_sfusCh7sEe6IF5fXZRMkdg"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfusAR7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Node" href="Guardian_Post_Processing.nodeflow#Post_Processing"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfusAh7sEe6IF5fXZRMkdg" x="984" y="252"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfusCx7sEe6IF5fXZRMkdg" type="1002">
+    <children xmi:type="notation:Node" xmi:id="_sfusDh7sEe6IF5fXZRMkdg" type="4003"/>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfusDB7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Variable" href="Guardian_Post_Processing.nodeflow#//@variables.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfusDR7sEe6IF5fXZRMkdg" x="1080" y="144"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfusDx7sEe6IF5fXZRMkdg" type="1002">
+    <children xmi:type="notation:Node" xmi:id="_sfusEh7sEe6IF5fXZRMkdg" type="4003"/>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfusEB7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Variable" href="Guardian_Post_Processing.nodeflow#//@variables.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfusER7sEe6IF5fXZRMkdg" x="1140" y="144"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfusEx7sEe6IF5fXZRMkdg" type="1002">
+    <children xmi:type="notation:Node" xmi:id="_sfusFh7sEe6IF5fXZRMkdg" type="4003"/>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfusFB7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Variable" href="Guardian_Post_Processing.nodeflow#//@variables.2"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfusFR7sEe6IF5fXZRMkdg" x="1176" y="180"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfusFx7sEe6IF5fXZRMkdg" type="1002">
+    <children xmi:type="notation:Node" xmi:id="_sfusGh7sEe6IF5fXZRMkdg" type="4003"/>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfusGB7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Variable" href="Guardian_Post_Processing.nodeflow#//@variables.3"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfusGR7sEe6IF5fXZRMkdg" x="1272" y="144"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfusGx7sEe6IF5fXZRMkdg" type="1002">
+    <children xmi:type="notation:Node" xmi:id="_sfusHh7sEe6IF5fXZRMkdg" type="4003"/>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfusHB7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Variable" href="Guardian_Post_Processing.nodeflow#//@variables.4"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfusHR7sEe6IF5fXZRMkdg" x="1380" y="144"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfusHx7sEe6IF5fXZRMkdg" type="1002">
+    <children xmi:type="notation:Node" xmi:id="_sfusIh7sEe6IF5fXZRMkdg" type="4003"/>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfusIB7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Variable" href="Guardian_Post_Processing.nodeflow#//@variables.5"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfusIR7sEe6IF5fXZRMkdg" x="1080" y="180"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfusIx7sEe6IF5fXZRMkdg" type="1002">
+    <children xmi:type="notation:Node" xmi:id="_sfusJh7sEe6IF5fXZRMkdg" type="4003"/>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfusJB7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Variable" href="Guardian_Post_Processing.nodeflow#//@variables.6"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfusJR7sEe6IF5fXZRMkdg" x="1248" y="180"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfusJx7sEe6IF5fXZRMkdg" type="1002">
+    <children xmi:type="notation:Node" xmi:id="_sfvTEB7sEe6IF5fXZRMkdg" type="4003"/>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfusKB7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Variable" href="Guardian_Post_Processing.nodeflow#//@variables.7"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfusKR7sEe6IF5fXZRMkdg" x="1320" y="180"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfvTER7sEe6IF5fXZRMkdg" type="1002">
+    <children xmi:type="notation:Node" xmi:id="_sfvTFB7sEe6IF5fXZRMkdg" type="4003"/>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfvTEh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Variable" href="Guardian_Post_Processing.nodeflow#//@variables.8"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfvTEx7sEe6IF5fXZRMkdg" x="1392" y="180"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfvTFR7sEe6IF5fXZRMkdg" type="1002">
+    <children xmi:type="notation:Node" xmi:id="_sfvTGB7sEe6IF5fXZRMkdg" type="4003"/>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfvTFh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Variable" href="Guardian_Post_Processing.nodeflow#//@variables.9"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfvTFx7sEe6IF5fXZRMkdg" x="1236" y="216"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfvTGR7sEe6IF5fXZRMkdg" type="1002">
+    <children xmi:type="notation:Node" xmi:id="_sfvTHB7sEe6IF5fXZRMkdg" type="4003"/>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfvTGh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Variable" href="Guardian_Post_Processing.nodeflow#//@variables.10"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfvTGx7sEe6IF5fXZRMkdg" x="1296" y="216"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfvTHR7sEe6IF5fXZRMkdg" type="1002">
+    <children xmi:type="notation:Node" xmi:id="_sfvTIB7sEe6IF5fXZRMkdg" type="4003"/>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfvTHh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Variable" href="Guardian_Post_Processing.nodeflow#//@variables.11"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfvTHx7sEe6IF5fXZRMkdg" x="1344" y="216"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfvTIR7sEe6IF5fXZRMkdg" type="1002">
+    <children xmi:type="notation:Node" xmi:id="_sfvTJB7sEe6IF5fXZRMkdg" type="4003"/>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfvTIh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Variable" href="Guardian_Post_Processing.nodeflow#//@variables.12"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfvTIx7sEe6IF5fXZRMkdg" x="1440" y="216"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfvTJR7sEe6IF5fXZRMkdg" type="1002">
+    <children xmi:type="notation:Node" xmi:id="_sfvTKB7sEe6IF5fXZRMkdg" type="4003"/>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfvTJh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Variable" href="Guardian_Post_Processing.nodeflow#//@variables.13"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfvTJx7sEe6IF5fXZRMkdg" x="1356" y="252"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfvTKR7sEe6IF5fXZRMkdg" type="1002">
+    <children xmi:type="notation:Node" xmi:id="_sfvTLB7sEe6IF5fXZRMkdg" type="4003"/>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfvTKh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Variable" href="Guardian_Post_Processing.nodeflow#//@variables.14"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfvTKx7sEe6IF5fXZRMkdg" x="1236" y="252"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfvTLR7sEe6IF5fXZRMkdg" type="1002">
+    <children xmi:type="notation:Node" xmi:id="_sfvTMB7sEe6IF5fXZRMkdg" type="4003"/>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfvTLh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Variable" href="Guardian_Post_Processing.nodeflow#//@variables.15"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfvTLx7sEe6IF5fXZRMkdg" x="1428" y="252"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfvTMR7sEe6IF5fXZRMkdg" type="1002">
+    <children xmi:type="notation:Node" xmi:id="_sfv6IB7sEe6IF5fXZRMkdg" type="4003"/>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfvTMh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Variable" href="Guardian_Post_Processing.nodeflow#//@variables.16"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfvTMx7sEe6IF5fXZRMkdg" x="1536" y="216"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfv6IR7sEe6IF5fXZRMkdg" type="1002">
+    <children xmi:type="notation:Node" xmi:id="_sfv6JB7sEe6IF5fXZRMkdg" type="4003"/>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfv6Ih7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Variable" href="Guardian_Post_Processing.nodeflow#//@variables.17"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfv6Ix7sEe6IF5fXZRMkdg" x="1512" y="252"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfv6JR7sEe6IF5fXZRMkdg" type="1002">
+    <children xmi:type="notation:Node" xmi:id="_sfv6KB7sEe6IF5fXZRMkdg" type="4003"/>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfv6Jh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Variable" href="Guardian_Post_Processing.nodeflow#//@variables.18"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfv6Jx7sEe6IF5fXZRMkdg" x="1512" y="144"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfv6KR7sEe6IF5fXZRMkdg" type="1002">
+    <children xmi:type="notation:Node" xmi:id="_sfv6LB7sEe6IF5fXZRMkdg" type="4003"/>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfv6Kh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Variable" href="Guardian_Post_Processing.nodeflow#//@variables.19"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfv6Kx7sEe6IF5fXZRMkdg" x="1128" y="216"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfv6LR7sEe6IF5fXZRMkdg" type="1002">
+    <children xmi:type="notation:Node" xmi:id="_sfv6MB7sEe6IF5fXZRMkdg" type="4003"/>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfv6Lh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Variable" href="Guardian_Post_Processing.nodeflow#//@variables.20"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfv6Lx7sEe6IF5fXZRMkdg" x="1512" y="180"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfv6MR7sEe6IF5fXZRMkdg" type="1003">
+    <children xmi:type="notation:Node" xmi:id="_sfv6NB7sEe6IF5fXZRMkdg" type="4004"/>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfv6Mh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Condition" href="Guardian_Post_Processing.nodeflow#//@conditions.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfv6Mx7sEe6IF5fXZRMkdg" x="1212" y="96"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_sfv6NR7sEe6IF5fXZRMkdg" type="1003">
+    <children xmi:type="notation:Node" xmi:id="_sfv6OB7sEe6IF5fXZRMkdg" type="4004"/>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_sfv6Nh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:Condition" href="Guardian_Post_Processing.nodeflow#//@conditions.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sfv6Nx7sEe6IF5fXZRMkdg" x="1332" y="96"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_tOwEkR2AEe6hffep9W0FvA"/>
+  <element xmi:type="com.drishti.dacx.nodeflow.model:NodeFlow" href="Guardian_Post_Processing.nodeflow#/"/>
+  <edges xmi:type="notation:Edge" xmi:id="_sf6SMB7sEe6IF5fXZRMkdg" type="3001" source="_sfxIth7sEe6IF5fXZRMkdg" target="_sfusAB7sEe6IF5fXZRMkdg">
+    <children xmi:type="notation:Node" xmi:id="_sf6SNB7sEe6IF5fXZRMkdg" type="4005">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sf6SNR7sEe6IF5fXZRMkdg" x="4" y="16"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_sf6SMR7sEe6IF5fXZRMkdg" routing="Rectilinear" lineColor="16711680"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_sf6SMh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:ConditionalTransition" href="Guardian_Post_Processing.nodeflow#//@transitions.12"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sf6SMx7sEe6IF5fXZRMkdg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_sf6SNh7sEe6IF5fXZRMkdg" type="3001" source="_sfxIth7sEe6IF5fXZRMkdg" target="_sfusAB7sEe6IF5fXZRMkdg">
+    <children xmi:type="notation:Node" xmi:id="_sf6SOh7sEe6IF5fXZRMkdg" type="4005">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sf6SOx7sEe6IF5fXZRMkdg" x="10" y="-8"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_sf6SNx7sEe6IF5fXZRMkdg" routing="Rectilinear" lineColor="16711680"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_sf6SOB7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:ConditionalTransition" href="Guardian_Post_Processing.nodeflow#//@transitions.15"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sf6SOR7sEe6IF5fXZRMkdg" points="[58, -6, -182, -24]$[178, -6, -62, -24]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_sf6SPB7sEe6IF5fXZRMkdg" type="3002" source="_sfxISh7sEe6IF5fXZRMkdg" target="_sfuFBh7sEe6IF5fXZRMkdg">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_sf6SPR7sEe6IF5fXZRMkdg" routing="Rectilinear" lineColor="0"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_sf6SPh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" href="Guardian_Post_Processing.nodeflow#//@transitions.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sf6SPx7sEe6IF5fXZRMkdg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_sf6SQB7sEe6IF5fXZRMkdg" type="3002" source="_sfxITh7sEe6IF5fXZRMkdg" target="_sfuFBh7sEe6IF5fXZRMkdg">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_sf6SQR7sEe6IF5fXZRMkdg" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_sf6SQh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" href="Guardian_Post_Processing.nodeflow#//@transitions.1"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sf6SQx7sEe6IF5fXZRMkdg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_sf6SRB7sEe6IF5fXZRMkdg" type="3002" source="_sfxIkB7sEe6IF5fXZRMkdg" target="_sfuFHB7sEe6IF5fXZRMkdg">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_sf6SRR7sEe6IF5fXZRMkdg" routing="Rectilinear" lineColor="0"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_sf6SRh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" href="Guardian_Post_Processing.nodeflow#//@transitions.2"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sf6SRx7sEe6IF5fXZRMkdg" points="[58, 0, -146, 25]$[142, 0, -62, 25]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_sf6SSB7sEe6IF5fXZRMkdg" type="3002" source="_sfxIlB7sEe6IF5fXZRMkdg" target="_sfuE-x7sEe6IF5fXZRMkdg">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_sf6SSR7sEe6IF5fXZRMkdg" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_sf6SSh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" href="Guardian_Post_Processing.nodeflow#//@transitions.3"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sf6SSx7sEe6IF5fXZRMkdg" points="[-33, 10, -31, -293]$[-33, 203, -31, -100]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_sf6STB7sEe6IF5fXZRMkdg" type="3002" source="_sfxImB7sEe6IF5fXZRMkdg" target="_sfuE-x7sEe6IF5fXZRMkdg">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_sf6STR7sEe6IF5fXZRMkdg" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_sf6STh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" href="Guardian_Post_Processing.nodeflow#//@transitions.4"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sf6STx7sEe6IF5fXZRMkdg" points="[-25, 10, -23, -273]$[-25, 183, -23, -100]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_sf6SUB7sEe6IF5fXZRMkdg" type="3002" source="_sfxInB7sEe6IF5fXZRMkdg" target="_sfuE-x7sEe6IF5fXZRMkdg">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_sf6SUR7sEe6IF5fXZRMkdg" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_sf6SUh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" href="Guardian_Post_Processing.nodeflow#//@transitions.5"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sf6SUx7sEe6IF5fXZRMkdg" points="[-18, 10, -16, -253]$[-18, 163, -16, -100]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_sf6SVB7sEe6IF5fXZRMkdg" type="3002" source="_sfxIoB7sEe6IF5fXZRMkdg" target="_sfuE-x7sEe6IF5fXZRMkdg">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_sf6SVR7sEe6IF5fXZRMkdg" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_sf6SVh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" href="Guardian_Post_Processing.nodeflow#//@transitions.6"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sf6SVx7sEe6IF5fXZRMkdg" points="[-11, 10, -9, -233]$[-11, 143, -9, -100]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_sf6SWB7sEe6IF5fXZRMkdg" type="3002" source="_sfxIpB7sEe6IF5fXZRMkdg" target="_sfuE-x7sEe6IF5fXZRMkdg">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_sf6SWR7sEe6IF5fXZRMkdg" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_sf6SWh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" href="Guardian_Post_Processing.nodeflow#//@transitions.7"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sf6SWx7sEe6IF5fXZRMkdg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_sf6SXB7sEe6IF5fXZRMkdg" type="3002" source="_sfxIth7sEe6IF5fXZRMkdg" target="_sfuE-x7sEe6IF5fXZRMkdg">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_sf6SXR7sEe6IF5fXZRMkdg" routing="Rectilinear" lineColor="0"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_sf6SXh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" href="Guardian_Post_Processing.nodeflow#//@transitions.8"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sf6SXx7sEe6IF5fXZRMkdg" points="[-30, 10, 176, -332]$[-30, 300, 176, -42]$[-109, 300, 97, -42]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_sf6SYB7sEe6IF5fXZRMkdg" type="3002" source="_sfxIuh7sEe6IF5fXZRMkdg" target="_sfuE-x7sEe6IF5fXZRMkdg">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_sf6SYR7sEe6IF5fXZRMkdg" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_sf6SYh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" href="Guardian_Post_Processing.nodeflow#//@transitions.9"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sf6SYx7sEe6IF5fXZRMkdg" points="[-4, 10, 202, -312]$[-4, 295, 202, -27]$[-109, 295, 97, -27]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_sf6SZB7sEe6IF5fXZRMkdg" type="3002" source="_sfxIbB7sEe6IF5fXZRMkdg" target="_sfuFER7sEe6IF5fXZRMkdg">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_sf6SZR7sEe6IF5fXZRMkdg" routing="Rectilinear" lineColor="0"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_sf6SZh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" href="Guardian_Post_Processing.nodeflow#//@transitions.10"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sf6SZx7sEe6IF5fXZRMkdg" points="[58, -1, -170, 9]$[166, -1, -62, 9]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_sf6SaB7sEe6IF5fXZRMkdg" type="3002" source="_sfxIcB7sEe6IF5fXZRMkdg" target="_sfuFER7sEe6IF5fXZRMkdg">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_sf6SaR7sEe6IF5fXZRMkdg" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_sf6Sah7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" href="Guardian_Post_Processing.nodeflow#//@transitions.11"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sf6Sax7sEe6IF5fXZRMkdg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_sf6SbB7sEe6IF5fXZRMkdg" type="3002" source="_sfxIyh7sEe6IF5fXZRMkdg" target="_sfuE-x7sEe6IF5fXZRMkdg">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_sf6SbR7sEe6IF5fXZRMkdg" routing="Rectilinear" lineColor="0"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_sf6Sbh7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" href="Guardian_Post_Processing.nodeflow#//@transitions.13"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sf6Sbx7sEe6IF5fXZRMkdg" points="[0, 10, 446, -323]$[0, 344, 446, 11]$[-349, 344, 97, 11]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_sf6ScB7sEe6IF5fXZRMkdg" type="3002" source="_sfxIzh7sEe6IF5fXZRMkdg" target="_sfuE-x7sEe6IF5fXZRMkdg">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_sf6ScR7sEe6IF5fXZRMkdg" routing="Rectilinear"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_sf6Sch7sEe6IF5fXZRMkdg" fontName="Segoe UI"/>
+    <element xmi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" href="Guardian_Post_Processing.nodeflow#//@transitions.14"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sf6Scx7sEe6IF5fXZRMkdg" points="[13, 10, 459, -303]$[13, 335, 459, 22]$[-349, 335, 97, 22]"/>
+  </edges>
+</notation:Diagram>

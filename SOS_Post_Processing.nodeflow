@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.drishti.dacx.nodeflow.model:NodeFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.drishti.dacx.nodeflow.model="http://www.drishtisoft.com/dacx/nodeflow/nodeModel.ecore" startNode="Start_Script" name="SOS_Post_Processing.nodeflow_diagram" sciptType="nodeflow.script.interpreter.js">
+  <nodes name="Start_Script">
+    <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/ScriptNode/1.0.0/ScriptNode.nodemodel#/"/>
+    <events name="script.node.success" defaultTransition="//@transitions.0"/>
+    <events name="script.node.failure" defaultTransition="//@transitions.1"/>
+    <events name="system.error"/>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeStatic" name="script" value="var env;&#xD;&#xA;&#xD;&#xA;//var systemDisposition = 'CONNECTED' ;&#xD;&#xA;&#xD;&#xA;//var callType = 'outbound.auto.dial' ;&#xD;&#xA;&#xD;&#xA;//var ivrTime = '11000' ;&#xD;&#xA;&#xD;&#xA;//var phone1 = phone1.substr(-10) ; &#xD;&#xA;//var dstPhone = dstPhone.substr(-10) ; &#xD;&#xA;for(key in this)&#xD;&#xA;&#xD;&#xA;result= result+(&quot;key is : &quot; + key+ &quot; value is: &quot; + this[key]+&quot;\n&quot;);&#xD;&#xA;&#xD;&#xA;env.info(&quot;SOS_Global_Results_are______====================&quot;+result);&#xD;&#xA;env.info(&quot;System Disposition is============&quot;+systemDisposition);&#xD;&#xA;env.info(&quot;Call Type is============&quot;+callType);&#xD;&#xA;env.info(&quot;IVR Time is============&quot;+ivrTime);&#xD;&#xA;env.info(&quot;Phone 1 value is =&quot;+phone1);&#xD;&#xA;env.info(&quot;dstPhone value is =&quot;+dstPhone);&#xD;&#xA; &#xD;&#xA;// var sharedVariable = '{&quot;ticket_id&quot;:&quot;1999898&quot;,&quot;additional_tags&quot;:&quot;genuine_sos&quot; ,&quot;status&quot;:&quot;OPEN&quot;}';&#xD;&#xA;&#xD;&#xA;//sharedVariable = '{&quot;ticket_id&quot;:&quot;' + ticket_id + '&quot;,&quot;additional_tags&quot;:&quot;' + additional_tags + '&quot; ,&quot;status&quot;:&quot;' + status + '&quot;}';&#xD;&#xA;&#xD;&#xA;env.info(&quot;Shared Variable is============&quot;+sharedVariable);">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/ScriptNode/1.0.0/ScriptNode.nodemodel#//@attributes.0"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeNodeFlow" name="playSequenceNodeflow">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/BaseUtilityNode/1.0.0/BaseUtilityNode.nodemodel#//@attributes.0"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeStatic" name="dataProviderType">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/BaseNode/1.0.0/BaseNode.nodemodel#//@attributes.0"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeVariable" name="preScript">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/BaseNode/1.0.0/BaseNode.nodemodel#//@attributes.1"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeVariable" name="postScript">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/BaseNode/1.0.0/BaseNode.nodemodel#//@attributes.2"/>
+    </attributes>
+  </nodes>
+  <nodes name="Stop_Success" inTransitions="//@transitions.3 //@transitions.4 //@transitions.5 //@transitions.6 //@transitions.7 //@transitions.8 //@transitions.9 //@transitions.13 //@transitions.14">
+    <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/StopNode/1.0.0/StopNode.nodemodel#/"/>
+    <events name="system.error"/>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeStatic" name="returnStatus" value="success">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/StopNode/1.0.0/StopNode.nodemodel#//@attributes.0"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeStatic" name="dataProviderType">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/BaseNode/1.0.0/BaseNode.nodemodel#//@attributes.0"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeVariable" name="preScript">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/BaseNode/1.0.0/BaseNode.nodemodel#//@attributes.1"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeVariable" name="postScript">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/BaseNode/1.0.0/BaseNode.nodemodel#//@attributes.2"/>
+    </attributes>
+  </nodes>
+  <nodes name="Pre_Banku_Script" inTransitions="//@transitions.0 //@transitions.1">
+    <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/ScriptNode/1.0.0/ScriptNode.nodemodel#/"/>
+    <events name="script.node.success" defaultTransition="//@transitions.10"/>
+    <events name="script.node.failure" defaultTransition="//@transitions.11"/>
+    <events name="system.error"/>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeStatic" name="script" value="var env;&#xD;&#xA;&#xD;&#xA;//var systemDisposition = 'CONNECTED' ;&#xD;&#xA;&#xD;&#xA;//var callType = 'outbound.auto.dial' ;&#xD;&#xA;&#xD;&#xA;//var ivrTime = '10000' ;&#xD;&#xA;&#xD;&#xA;//var numAttempts = '2' ;&#xD;&#xA;&#xD;&#xA;//var menu_input = '2' ;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;statsusNew=&quot;no_call_again&quot;;&#xD;&#xA;for(key in this)&#xD;&#xA;&#xD;&#xA;result= result+(&quot;key is : &quot; + key+ &quot; value is: &quot; + this[key]+&quot;\n&quot;);&#xD;&#xA;&#xD;&#xA;//env.info(&quot;SOS_Global_Results_are______====================&quot;+result);&#xD;&#xA;env.info(&quot;System Disposition is============&quot;+systemDisposition);&#xD;&#xA;env.info(&quot;Call Type is============&quot;+callType);&#xD;&#xA;env.info(&quot;IVR Time is============&quot;+ivrTime);&#xD;&#xA;&#xD;&#xA; &#xD;&#xA;//var sharedVariable = '{&quot;ticket_id&quot;:&quot;1999898&quot;,&quot;additional_tags&quot;:&quot;genuine_sos&quot; ,&quot;status&quot;:&quot;OPEN&quot;}';&#xD;&#xA;&#xD;&#xA;//sharedVariable = '{&quot;ticket_id&quot;:&quot;' + ticket_id + '&quot;,&quot;additional_tags&quot;:&quot;' + additional_tags + '&quot; ,&quot;status&quot;:&quot;' + status + ',&quot;menu_input&quot;:&quot;' + menu_input + '&quot;}';&#xD;&#xA;&#xD;&#xA;env.info(&quot;Shared Variable is============&quot;+sharedVariable);&#xD;&#xA;&#xD;&#xA;try {&#xD;&#xA;       eval(&quot;sharedVariable = &quot; + sharedVariable + &quot;;&quot;);&#xD;&#xA;       if (sharedVariable == '' || sharedVariable == null) {&#xD;&#xA;              ticket_id = 'No Record Found';&#xD;&#xA;&#x9;      max_Attempt =  0;&#xD;&#xA;              additional_tags = 'No Record Found';&#xD;&#xA;              status = 'No Record Found' ;&#xD;&#xA;              menu_input = 'No Record Found' ;&#xD;&#xA;       } else {&#xD;&#xA;              ticket_id = sharedVariable['ticket_id'];&#xD;&#xA;&#x9;      max_Attempt =  sharedVariable['max_Attempt'];&#xD;&#xA;              additional_tags = sharedVariable['additional_tags'];&#xD;&#xA;              status =  sharedVariable['status'];&#xD;&#xA;              menu_input =  sharedVariable['menu_input'];&#xD;&#xA;&#xD;&#xA;       }&#xD;&#xA;} catch (error) {&#xD;&#xA;              ticket_id = 'No Record Found';&#xD;&#xA;&#x9;      max_Attempt =  0;&#xD;&#xA;              additional_tags = 'No Record Found';&#xD;&#xA;              status = 'No Record Found' ;&#xD;&#xA;              menu_input = 'No Record Found' ;&#xD;&#xA;&#xD;&#xA;}&#xD;&#xA;env.info(&quot;IVR Time is============&quot;+typeof(max_Attempt));&#xD;&#xA;max_Attemptt = Number(max_Attempt) ;&#xD;&#xA;env.info(&quot;IVR Time is============&quot;+max_Attemptt);&#xD;&#xA;env.info(&quot;IVR Time is============&quot;+typeof(max_Attemptt));&#xD;&#xA;&#xD;&#xA;max_Attempttt = max_Attemptt+1;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;if (systemDisposition == &quot;CONNECTED&quot; &amp;&amp; (ivrTime &lt;=10000 ) &amp;&amp; (menu_input == 1 || menu_input == '1')) &#xD;&#xA;&#xD;&#xA;{&#xD;&#xA;    &#xD;&#xA;status = 'OPEN' ;&#xD;&#xA;additional_tags = 'genuine_sos' ;&#xD;&#xA;retry_reason = 'input_given_1' ; &#xD;&#xA;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;else if (systemDisposition == &quot;CONNECTED&quot;  &amp;&amp; (ivrTime &lt;=10000 ) &amp;&amp; (menu_input == 2 || menu_input == '2')) &#xD;&#xA;&#xD;&#xA;{&#xD;&#xA;    &#xD;&#xA;status = 'OPEN' ;&#xD;&#xA;additional_tags = 'not_sos' ;&#xD;&#xA;retry_reason = 'input_given_2' ; &#xD;&#xA;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;else if (systemDisposition != &quot;CONNECTED&quot;  &amp;&amp; (max_Attempttt == '1' || max_Attempttt == 1)) &#xD;&#xA;&#xD;&#xA;{&#xD;&#xA;    &#xD;&#xA;additional_tags = 'no_user_response_1';&#xD;&#xA;retry_reason = 'attempt_1_not_answered' ; &#xD;&#xA;&#xD;&#xA;statsusNew=&quot;call_again&quot;;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;else if (systemDisposition != &quot;CONNECTED&quot;  &amp;&amp; (ivrTime &lt;=10000 ) &amp;&amp; (max_Attempttt == '2' || max_Attempttt == 2) &amp;&amp; (lastStatus == 'NOT_TRIED' || lastStatus == &quot;NOT_TRIED&quot;) )&#xD;&#xA;&#xD;&#xA;{&#xD;&#xA;    &#xD;&#xA;additional_tags = 'no_user_response_hangup';&#xD;&#xA;status = 'SOLVED' ;&#xD;&#xA;retry_reason = 'customer_hangup' ; &#xD;&#xA;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;else if (systemDisposition != &quot;CONNECTED&quot;  &amp;&amp; (max_Attempttt == '2' || max_Attempttt == 2)) &#xD;&#xA;&#xD;&#xA;{&#xD;&#xA;    &#xD;&#xA;additional_tags = 'no_user_response_2';&#xD;&#xA;retry_reason = 'attempt_2_not_answered' ; &#xD;&#xA;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;else if (systemDisposition == &quot;CONNECTED&quot;  &amp;&amp; (ivrTime &lt;=10000 ) &amp;&amp; (max_Attempttt == '1' || max_Attempttt == 1))&#xD;&#xA;&#xD;&#xA;{&#xD;&#xA;    &#xD;&#xA;additional_tags = 'no_user_response_10_seconds_1';&#xD;&#xA;status = 'SOLVED' ;&#xD;&#xA;retry_reason = 'customer_disconnected_the_call_1' ; &#xD;&#xA;statsusNew=&quot;call_again&quot;;&#xD;&#xA;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;else if (systemDisposition == &quot;CONNECTED&quot; &amp;&amp; (ivrTime &lt;=10000 ) &amp;&amp; (max_Attempttt == '2' || max_Attempttt == 2))&#xD;&#xA;&#xD;&#xA;{&#xD;&#xA;    &#xD;&#xA;additional_tags = 'no_user_response_10_seconds_2';&#xD;&#xA;status = 'SOLVED' ;&#xD;&#xA;retry_reason = 'customer_disconnected_the_call_2' ; &#xD;&#xA;statsusNew=&quot;call_again&quot;;&#xD;&#xA;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;else if (systemDisposition == &quot;CONNECTED&quot; &amp;&amp; (menu_input == 1 || menu_input == '1')) &#xD;&#xA;&#xD;&#xA;{&#xD;&#xA;    &#xD;&#xA;status = 'OPEN' ;&#xD;&#xA;additional_tags = 'genuine_sos' ;&#xD;&#xA;retry_reason = 'input_given_1' ; &#xD;&#xA;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;else if (systemDisposition == &quot;CONNECTED&quot;  &amp;&amp; (menu_input == 2 || menu_input == '2')) &#xD;&#xA;&#xD;&#xA;{&#xD;&#xA;    &#xD;&#xA;status = 'OPEN' ;&#xD;&#xA;additional_tags = 'not_sos' ;&#xD;&#xA;retry_reason = 'input_given_2' ; &#xD;&#xA;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;else if (systemDisposition == &quot;CONNECTED&quot;  &amp;&amp; (menu_input == 'null' || menu_input == &quot;null&quot;) &amp;&amp; (max_Attempttt == '1' || max_Attempttt == 1) ) &#xD;&#xA; &#xD;&#xA;&#xD;&#xA;{&#xD;&#xA;    &#xD;&#xA;status = 'OPEN' ;&#xD;&#xA;additional_tags = 'connected_input_not_given_1' ;&#xD;&#xA;retry_reason = 'input_not_given_1';&#xD;&#xA;statsusNew=&quot;call_again&quot;; &#xD;&#xA;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;else &#xD;&#xA;&#xD;&#xA;{&#xD;&#xA;    &#xD;&#xA;status = 'OPEN' ;&#xD;&#xA;additional_tags = 'connected_input_not_given_2' ;&#xD;&#xA;retry_reason = 'input_not_given_2' ; &#xD;&#xA;statsusNew=&quot;call_again&quot;;&#xD;&#xA;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;max_Attempt = max_Attempttt+&quot;_mt&quot;;&#xD;&#xA;env.info(&quot;numAttempts Formed as ======= &quot;+numAttempts);&#xD;&#xA;env.info(&quot;Status Formed as ======= &quot;+status);&#xD;&#xA;env.info(&quot;max_Attempt Formed as ======= &quot;+max_Attempt);&#xD;&#xA;env.info(&quot;Menu Input Formed as ======= &quot;+menu_input);&#xD;&#xA;env.info(&quot;dstPhone Formed as ======= &quot;+dstPhone);&#xD;&#xA;env.info(&quot;shresth Shared Variable  Is =====&quot;+sharedVariable);&#xD;&#xA;env.info (&quot;Ticket Formed Is ======== &quot;+ticket_id);&#xD;&#xA;env.info (&quot;Additional_tags Formed Is ======== &quot;+additional_tags);&#xD;&#xA;env.info (&quot;Retry Reason Formed Is ======== &quot;+retry_reason);&#xD;&#xA;">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/ScriptNode/1.0.0/ScriptNode.nodemodel#//@attributes.0"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeNodeFlow" name="playSequenceNodeflow">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/BaseUtilityNode/1.0.0/BaseUtilityNode.nodemodel#//@attributes.0"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeStatic" name="dataProviderType">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/BaseNode/1.0.0/BaseNode.nodemodel#//@attributes.0"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeVariable" name="preScript">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/BaseNode/1.0.0/BaseNode.nodemodel#//@attributes.1"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeVariable" name="postScript">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/BaseNode/1.0.0/BaseNode.nodemodel#//@attributes.2"/>
+    </attributes>
+  </nodes>
+  <nodes name="Flurry_Ticket_Update_shre" inTransitions="//@transitions.10 //@transitions.11">
+    <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/HTTP/1.0.0/HTTP.nodemodel#/"/>
+    <events name="HTTP.node.success" defaultTransition="//@transitions.2"/>
+    <events name="HTTP.node.exception" defaultTransition="//@transitions.3"/>
+    <events name="HTTP.node.communication.exception" defaultTransition="//@transitions.4"/>
+    <events name="HTTP.node.http.response.failure" defaultTransition="//@transitions.5"/>
+    <events name="HTTP.node.http.request.failure" defaultTransition="//@transitions.6"/>
+    <events name="HTTP.node.connection.timeout.exception" defaultTransition="//@transitions.7"/>
+    <events name="system.error"/>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeStatic" name="variable" value="API_response">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/HTTP/1.0.0/HTTP.nodemodel#//@attributes.0"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeVariable" name="url" staticValue="https://192.168.39.25:8786/SOS/ticket_update_prod.php">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/HTTP/1.0.0/HTTP.nodemodel#//@attributes.1"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeStatic" name="encryptParameter">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/HTTP/1.0.0/HTTP.nodemodel#//@attributes.2"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeVariable" name="parameter" staticValue="ticket_id,status,dstPhone,additional_tags,retry_reason,max_Attempt,systemDisposition,statsusNew">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/HTTP/1.0.0/HTTP.nodemodel#//@attributes.3"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeStatic" name="type" value="Get">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/HTTP/1.0.0/HTTP.nodemodel#//@attributes.4"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeStatic" name="timeout" value="6000">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/HTTP/1.0.0/HTTP.nodemodel#//@attributes.5"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeNodeFlow" name="playSequenceNodeflow">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/HTTP/1.0.0/HTTP.nodemodel#//@attributes.6"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeVariable" name="headerMap">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/HTTP/1.0.0/HTTP.nodemodel#//@attributes.7"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeStatic" name="dataFormat">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/HTTP/1.0.0/HTTP.nodemodel#//@attributes.8"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeStatic" name="dataProviderType">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/BaseNode/1.0.0/BaseNode.nodemodel#//@attributes.0"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeVariable" name="preScript">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/BaseNode/1.0.0/BaseNode.nodemodel#//@attributes.1"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeVariable" name="postScript">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/BaseNode/1.0.0/BaseNode.nodemodel#//@attributes.2"/>
+    </attributes>
+  </nodes>
+  <nodes name="Banku_API_Result_SOS" inTransitions="//@transitions.2">
+    <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/ScriptNode/1.0.0/ScriptNode.nodemodel#/"/>
+    <events name="script.node.success" outTransitions="//@transitions.12 //@transitions.15" defaultTransition="//@transitions.8"/>
+    <events name="script.node.failure" defaultTransition="//@transitions.9"/>
+    <events name="system.error"/>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeStatic" name="script" value="var abc ;&#xD;&#xA;&#xD;&#xA;env.info(&quot;Vyankatesh API Response is =======&quot;+API_response);&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;var customer_record = '{&quot;phone1&quot;:&quot;'+phone1+'&quot;,&quot;name&quot;:&quot;'+ticket_id+'&quot; ,&quot;city&quot;:&quot;NA&quot; }';&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;env.info(&quot;Customer Record is =======&quot;+customer_record);">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/ScriptNode/1.0.0/ScriptNode.nodemodel#//@attributes.0"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeNodeFlow" name="playSequenceNodeflow">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/BaseUtilityNode/1.0.0/BaseUtilityNode.nodemodel#//@attributes.0"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeStatic" name="dataProviderType">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/BaseNode/1.0.0/BaseNode.nodemodel#//@attributes.0"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeVariable" name="preScript">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/BaseNode/1.0.0/BaseNode.nodemodel#//@attributes.1"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeVariable" name="postScript">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/BaseNode/1.0.0/BaseNode.nodemodel#//@attributes.2"/>
+    </attributes>
+  </nodes>
+  <nodes name="Post_Processing" inTransitions="//@transitions.12 //@transitions.15">
+    <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/PostCallProcessingNode/1.0.0/PostCallProcessingNode.nodemodel#/"/>
+    <events name="success.post.call.processing" defaultTransition="//@transitions.13"/>
+    <events name="failure.post.call.processing" defaultTransition="//@transitions.14"/>
+    <events name="system.error"/>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeStatic" name="script" value="var env;&#xD;&#xA;&#xD;&#xA;systemDisposition = 'NOT_TRIED' ;&#xD;&#xA;">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/PostCallProcessingNode/1.0.0/PostCallProcessingNode.nodemodel#//@attributes.0"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeStatic" name="dataProviderType" value="pace.rule.post.call.processing.node.data.provider">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/BaseNode/1.0.0/BaseNode.nodemodel#//@attributes.0"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeVariable" name="preScript">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/BaseNode/1.0.0/BaseNode.nodemodel#//@attributes.1"/>
+    </attributes>
+    <attributes xsi:type="com.drishti.dacx.nodeflow.model:NodeAttributeVariable" name="postScript">
+      <type href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeType/BaseNode/1.0.0/BaseNode.nodemodel#//@attributes.2"/>
+    </attributes>
+  </nodes>
+  <transitions xsi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" toNode="Pre_Banku_Script" fromNode="//@nodes.0/@events.0"/>
+  <transitions xsi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" toNode="Pre_Banku_Script" fromNode="//@nodes.0/@events.1"/>
+  <transitions xsi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" toNode="Banku_API_Result_SOS" fromNode="//@nodes.3/@events.0"/>
+  <transitions xsi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" toNode="Stop_Success" fromNode="//@nodes.3/@events.1"/>
+  <transitions xsi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" toNode="Stop_Success" fromNode="//@nodes.3/@events.2"/>
+  <transitions xsi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" toNode="Stop_Success" fromNode="//@nodes.3/@events.3"/>
+  <transitions xsi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" toNode="Stop_Success" fromNode="//@nodes.3/@events.4"/>
+  <transitions xsi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" toNode="Stop_Success" fromNode="//@nodes.3/@events.5"/>
+  <transitions xsi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" toNode="Stop_Success" fromNode="//@nodes.4/@events.0"/>
+  <transitions xsi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" toNode="Stop_Success" fromNode="//@nodes.4/@events.1"/>
+  <transitions xsi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" toNode="Flurry_Ticket_Update_shre" fromNode="//@nodes.2/@events.0"/>
+  <transitions xsi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" toNode="Flurry_Ticket_Update_shre" fromNode="//@nodes.2/@events.1"/>
+  <transitions xsi:type="com.drishti.dacx.nodeflow.model:ConditionalTransition" toNode="Post_Processing" onCondition="//@conditions.0" fromNode="//@nodes.4/@events.0"/>
+  <transitions xsi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" toNode="Stop_Success" fromNode="//@nodes.5/@events.0"/>
+  <transitions xsi:type="com.drishti.dacx.nodeflow.model:UnconditionalTransition" toNode="Stop_Success" fromNode="//@nodes.5/@events.1"/>
+  <transitions xsi:type="com.drishti.dacx.nodeflow.model:ConditionalTransition" toNode="Post_Processing" onCondition="//@conditions.1" fromNode="//@nodes.4/@events.0"/>
+  <context href="plugin://com_drishti_dacx_nodeflow_util/model-data/NodeFlowType/PostCallProcessingFlow/1.0.0/PostCallProcessingNodeFlow.nodemodel#/"/>
+  <conditions name="Upload_Contact" condition="retry_reason == 'customer_disconnected_the_call_1' || retry_reason == &quot;customer_disconnected_the_call_1&quot; || retry_reason == 'customer_disconnected_the_call_2' || retry_reason == &quot;customer_disconnected_the_call_2&quot;"/>
+  <conditions name="Upload_Again" condition="retry_reason == 'input_not_given_1' || retry_reason == &quot;input_not_given_1&quot; || retry_reason == 'input_not_given_2' || retry_reason == &quot;input_not_given_2&quot;"/>
+  <variables name="result"/>
+  <variables name="systemDisposition"/>
+  <variables name="callType"/>
+  <variables name="sharedVariable"/>
+  <variables name="API_response"/>
+  <variables name="numAttempts"/>
+  <variables name="ivrTime"/>
+  <variables name="ticket_id"/>
+  <variables name="additional_tags"/>
+  <variables name="status"/>
+  <variables name="tag"/>
+  <variables name="retry_reason"/>
+  <variables name="menu_input"/>
+  <variables name="phone1"/>
+  <variables name="customer_record"/>
+  <variables name="ATTEMPTS"/>
+  <variables name="lastStatus"/>
+  <variables name="max_Attempt"/>
+  <variables name="statsusNew"/>
+  <variables name="max_Attempttt"/>
+  <variables name="max_Attemptt"/>
+</com.drishti.dacx.nodeflow.model:NodeFlow>
